@@ -1,0 +1,21 @@
+{
+  "courses": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fullstack"
+    },
+    {
+      "id": 2,
+      "name": "Front-end"
+    },
+    {
+      "id": 3,
+      "name": "Back-end"
+    },
+    {
+      "id": 4,
+      "name": "Data-science"
+    }
+  ]
+}

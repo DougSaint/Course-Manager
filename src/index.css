@@ -1,0 +1,14 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body,
+#root{
+	background-color: rgba(231, 226, 227, 0.849);
+	height: 100%;
+
+}

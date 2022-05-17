@@ -1,0 +1,28 @@
+.navbar {
+	display: flex;
+	background-color: #ddd;
+	border-bottom: 1px solid #EFEFEF;
+	padding: 1em;
+}
+.navbar img{
+	width: 40px;
+	height: 40px;
+}
+
+.list{
+	display: flex;
+	list-style:none;
+	align-items: center;
+}
+.item{
+	margin-right: 1em;
+}
+.item a{
+	color: rgb(43, 39, 43);
+	text-decoration: none;
+}
+.item a:hover {
+	color: black;
+	text-decoration:underline;
+}
+

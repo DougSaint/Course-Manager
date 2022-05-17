@@ -1,0 +1,14 @@
+.newcourse_container{
+	width: 35%;
+	margin: 0 auto;
+	padding: 3em;
+}
+
+.newcourse_container h1{
+	margin-bottom: 0.5em;
+	color: rgba(44, 36, 36, 0.87);
+}
+
+.newcourse_container p{
+	color: rgba(29, 29, 29, 0.733);
+}

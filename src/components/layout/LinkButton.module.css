@@ -1,0 +1,12 @@
+.btn {
+	background-color: #49274A;
+	color: whitesmoke;
+	padding: 1em 1em;
+	text-decoration: none;
+	transition:0.5s;
+	border-radius: 3em;
+}
+.btn:hover{
+	color: rgba(177, 170, 179, 0.644);
+	background-color: #49274A;
+}

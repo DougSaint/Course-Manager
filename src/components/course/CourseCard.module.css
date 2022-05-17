@@ -1,0 +1,81 @@
+.course_card{
+	padding: 1em;
+	border: solid 1px #7A7A7A;
+	border-radius: 5px;
+	width: 24%;
+	margin: 0.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.course_card h4{
+	color: #49274A;
+	background-color: rgba(241, 210, 250, 0.644);
+	padding: .4em;
+	margin-bottom:1.3em;
+	font-size: 1.3em;
+}
+.course_card p{
+	color: #7a7a7a;
+	margin-bottom: 1em;
+}
+.course_card p span{
+	font-weight: bold;
+}
+.category_text{
+	display: flex;
+	align-items: center;
+}
+.category_text span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+.category_text .front-end{
+	background-color:rgb(52, 160, 52)
+}
+
+.category_text .back-end{
+	background-color:rgb(35, 142, 204)
+}
+.category_text .fullstack{
+	background-color:rgb(118, 41, 121)
+}
+.category_text .data-science{
+	background-color:rgb(235, 215, 42)
+}
+
+.actions{
+	margin-top: 1.2em;
+	display: flex;
+	align-items: center;
+
+}
+
+.actions a,
+.actions button{
+	text-decoration: none;
+	border: none;
+	background-color: #FFF;
+	color: #222;
+	font-size: .9em;
+	padding: .6em 1em;
+	cursor: pointer;
+	margin-right: 1em;
+	border: 1px solid #222;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	transition: 0.5s;
+	width: 100%;
+}
+.actions svg{
+	margin-right: .5em;
+}
+.actions a:hover,
+.actions button:hover{
+	background-color: #222;
+	color: #FFBB33;
+}
