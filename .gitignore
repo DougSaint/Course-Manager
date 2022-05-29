@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 node_modules
 old_project
+/old_project/src
+.old_project
